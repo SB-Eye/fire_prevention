@@ -1,3 +1,28 @@
+"""
+Eng
+2021.11.19 Firepre Work2
+
+reference link
+https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9
+
+Step 1. Install MicroPython Firmware on ESP8266
+Step 2. Configure the circuit on the ESP8266 using the sensors to be used
+Step 3. Check the operation of each sensor through ESP8266 using MicroPython code 
+
+----------------
+Kor
+2021.11.19 Firepre Work2
+
+참고 링크
+https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9
+
+Step 1. ESP8266에 마이크로파이썬 펌웨어 설치하기
+Step 2. 사용할 센서들을 이용하여 ESP8266에 회로 구성하기
+Step 3. MicroPython 코드를 이용하여 ESP8266을 통해 각 센서들의 동작 확인하기
+
+
+"""
+
 from machine import Pin
 import time
 # LED
