@@ -19,8 +19,6 @@ https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9
 Step 1. ESP8266에 마이크로파이썬 펌웨어 설치하기
 Step 2. 사용할 센서들을 이용하여 ESP8266에 회로 구성하기
 Step 3. MicroPython 코드를 이용하여 ESP8266을 통해 각 센서들의 동작 확인하기
-
-
 """
 
 from machine import Pin
@@ -59,6 +57,7 @@ def colectData():
     lum = readLdr()
     butSts = readBut()
     return temp, hum, extTemp, lum, butSts
+"""
 # I2C / OLED
 from machine import I2C
 import ssd1306
@@ -72,6 +71,7 @@ def displayData(temp, hum, extTemp, lum, butSts):
     oled.text("Lumin:   " + str(lum) + "%", 0, 43)
     oled.text("Button:  " + str(butSts), 0, 57)
     oled.show()
+"""
 # Main function
 def main():
     led.on()
