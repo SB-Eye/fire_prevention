@@ -43,3 +43,12 @@ https://towardsdatascience.com/iot-made-easy-esp-micropython-mqtt-thingspeak-ce0
 
 Step 1. Firepre Work2에 구성한 회로를 이용하여 MQTT 구성하기
 Step 2. ThingSpeak를 이용하여 ESP8266이 Pub한 센서값을 그래프로 출력
+
+
+--------------
+
+
+feed.csv
+
+Firepre Work3를 실행하여 ESP8266에 연결된 센서값들을 ThingSpeak에 업로드하여 다운로드 받은 CSV파일
+
